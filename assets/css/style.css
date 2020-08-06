@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
+.padding-container {
+  padding: 75px 0;
+}
+
+.margin-bottom {
+  margin-bottom: 50px;
+}
+
+.row {
+  padding: 0 5px;
+}
+
+/* HEADER SIZES */
+h1 {
+  font-size: 4.8em;
+}
+
+h2 {
+  font-size: 3.6em;
+}
+
+h3 {
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 2.4em;
+}
+
+p {
+  font-size: 1.8em;
+}
+
+/* NAVBAR */
+#header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-brand {
+  margin-left: 35px;
+}
+
+.bg-light {
+  background-color: #fff;
+}
+
+.nav-items {
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.btn {
+  font-size: 1.5em;
+}
+
+.btn-grp {
+  margin-right: 35px;
+}
+
+.carousel-img-full {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/* SNAPHOTOS */
+
+.section-padding {
+  padding: 3rem 2rem;
+}
+
+.row-spacing {
+  margin: 2rem 0;
+}
+
+.col-spacing {
+  padding: 10px 25px;
+}
+
+/* TWO ROWS */
+#two-row {
+  background-color: #fdb3a5;
+  overflow: hidden;
+}
+
+#two-row img {
+  width: 100%;
+  max-width: 650px;
+}
+
+#two-row h3 {
+  margin-top: 20px;
+}
+
+.two-row-content {
+  padding: 0 45px;
+}
+
+/* FIFTH BLOCK */
+#fifth-block {
+  margin-bottom: 80px;
+  overflow: hidden;
+}
+
+#fifth-block h1,
+#fifth-block h4,
+#fifth-block img {
+  margin-bottom: 30px;
+}
+
+#sixth-block {
+  background: rgb(253, 179, 165);
+  overflow: hidden;
+}
+
+
+.join-today {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+  padding-top: 15.3px;
+  padding-bottom: 15.7px;
+  padding-left: 50.22px;
+  padding-right: 51.78px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-us-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+  padding-top: 15.3px;
+  padding-bottom: 15.7px;
+  padding-left: 50.22px;
+  padding-right: 51.78px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.twice-image {
+  border-radius: 50%;
+}
+
+/* FOOTER */
+#footer {
+  overflow: hidden;
+}
+
+#footer p {
+  font-size: 10.5px;
+}
+
+.footer-padding {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}

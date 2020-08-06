@@ -1,0 +1,42 @@
+/* DEFAULT */
+.col-12 {
+  width: 100%;
+}
+
+.col-6 {
+  width: calc(100% / 12 * 6);
+}
+
+.col-8 {
+  width: calc(100% / 12 * 8);
+}
+
+.col-4 {
+  width: calc(100% / 12 * 4);
+}
+
+.col-3 {
+  width: calc(100% / 12 * 3);
+}
+
+/* .col-md for tablets (≥768px) ABOVE */
+@media (min-width: 768px) {
+  .col-md-above-4 {
+    width: calc(100% / 12 * 4);
+    text-align: left;
+  }
+
+  .col-md-above-6 {
+    width: calc(100% / 12 * 6);
+    text-align: left;
+  }
+
+  .col-md-above-8 {
+    width: calc(100% / 12 * 8);
+    text-align: left;
+  }
+
+  .order-switch {
+    order: 2;
+  }
+}
